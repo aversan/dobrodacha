@@ -1,0 +1,70 @@
+.card-alt-wrapper
+	display flex
+	flex-flow row wrap
+	justify-content space-around
+	margin 0 -25px -50px -25px
+
+	+below($breakpoint-sm - 1px)
+		flex-flow column nowrap
+		justify-content center
+
+.card-alt
+	display inline-block
+	vertical-align top
+	text-align left
+	width 250px
+	max-width 250px
+	flex 1 1 250px
+	margin 0 25px 50px 25px
+
+.card-alt__img-wrapper
+	width 240px
+	height 190px
+	text-align center
+	border 5px solid #ffe44b
+	box-sizing border-box
+	position relative
+	overflow hidden
+
+.card-alt__img
+	position relative
+	left 50%
+	top 50%
+	transform translate(-50%, -50%)
+
+.card-alt__text
+	font-size 16px
+	line-height 21px
+	color #282828
+	margin-top 5px
+
+	&:first-child
+		margin-top 0
+
+.card-alt__overlay-panel
+	position absolute
+	left 0
+	top 0
+	right 0
+	bottom 0
+	text-decoration none !important
+
+.card-alt__overlay-icon:before
+	position absolute
+	top 50%
+	left 50%
+	width 50px
+	height 50px
+	margin-top -25px
+	margin-left -25px
+	font-size 44px
+	line-height 44px
+	font-family "Material Design Icons"
+	text-rendering auto
+	-webkit-font-smoothing antialiased
+	-moz-osx-font-smoothing grayscale
+	content "\F40A"
+	text-align center
+	color #fff
+	border 3px solid #fff
+	border-radius 100px

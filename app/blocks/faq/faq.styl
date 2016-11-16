@@ -1,0 +1,118 @@
+.faq-container
+	margin 0
+	padding 0
+
+	+above($breakpoint-md)
+		margin-left 6%
+
+	ol&
+	ul&
+		counter-reset li
+		list-style-type none
+
+.faq-item
+	position relative
+	padding 0 0 0 60px
+	min-height 40px
+	max-width 690px
+	margin 0 0 33px 0
+
+	&.open
+		margin-top -10px
+		margin-left 0
+
+		+above($breakpoint-md)
+			margin-left 12.5%
+
+	&:last-child
+		margin-bottom 0
+
+li.faq-item:before
+.faq-item__counter
+	position absolute
+	left 0
+	top 0
+	content counter(li)
+	counter-increment li
+	font-size 40px
+	width 40px
+	height 40px
+	line-height 24px
+	font-family $font-heading
+	font-weight normal
+	text-align right
+	color $primary-color
+
+.faq-item__close
+	float right
+	font-size 24px
+	cursor pointer
+	line-height 24px
+	width 24px
+	height 24px
+	vibisility hidden
+	opacity 0
+	color #555
+	margin-left 12px
+	position relative
+	top 0
+	z-index 1
+
+	.faq-item.open &
+		visibimlity visible
+		opacity 1
+		color $primary-color
+		top -5px
+
+.faq-item__title
+	typo-h2()
+	text-transform uppercase
+	letter-spacing .1ex
+	line-height 24px
+	color #555
+	margin-right 36px
+	margin-bottom 13px
+	top 0
+	position relative
+
+	a
+		text-decoration none
+		border-bottom 1px dashed #555
+		color #555
+
+		&:hover
+			color $link-hover
+			border-color $link-hover
+
+		&.active
+			color $link-hover
+			border-color $link-hover
+
+	.faq-item.open &
+		top -5px
+
+	.faq-item.open & a
+		color $primary-color
+		border-bottom none
+
+.faq-item__body
+	typo-body()
+	color #555
+	margin-top 0
+
+	.faq-item.open &
+		margin-top -5px
+
+.faq-item
+.faq-item__title
+.faq-item__title a
+.faq-item__close
+.faq-item .collapse
+.faq-item__body
+	transition $transition-default
+
+.faq-item .collapse
+	display none
+
+.faq-item.open .collapse
+	display block

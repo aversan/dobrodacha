@@ -1,0 +1,1486 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary
+	position relative
+
+body, p, a, input, textarea, .mbr-company .list-group-text
+	font-family 'Raleway', Verdana, sans-serif
+	font-size 1em
+	-webkit-font-smoothing antialiased
+	font-smoothing antialiased
+
+body
+	overflow-x hidden
+
+.text
+	font-family 'Raleway', Verdana, sans-serif
+
+.white-90
+	background-color rgba(255, 255, 255, 0.9)
+
+.white-100
+	background-color #fff
+
+a
+	font-family 'Noto Serif', Verdana, sans-serif
+	&:focus
+		color #272727
+		text-decoration none
+	&.telem
+		display block
+		position absolute
+		font-size 2em
+		color #bbd143
+		margin-left 4rem
+		text-align right
+		text-decoration none
+		&:hover
+			color #aabd3c
+	&.call-us
+		font-size 0.9em
+		letter-spacing 1px
+		color #272727
+		text-decoration none
+		border-bottom 2px solid #bbd143
+		&:hover
+			border-bottom 2px solid #aabd3c
+	&.read
+		margin-top 10px
+		border-bottom 2px solid #bbd143
+		color #232323
+		text-decoration none
+		font-weight 500
+		display inline-flex
+		&:hover
+			margin-top 10px
+			border-bottom 2px solid #aabd3c
+		&.right
+			margin 1rem 1rem 1rem
+			display inline-flex
+			padding 0
+	&.buttons
+		border none
+		color #272727
+		background-color #ffe44b
+		padding 12px 20px 10px
+		border-radius 5px
+		text-transform uppercase
+		font-weight 700
+		box-shadow 0 1px 3px rgba(19, 31, 51, 0.25)
+		margin 25px 0
+		text-decoration none
+		display inline-block
+		font-size 1em
+		&:hover
+			background-color #ffd800
+	&.subcr
+		margin 0
+		width 100%
+		background-color #bbd143
+		text-align center
+		display block
+		font-weight 700
+		&:hover
+			background-color #aabd3c
+	&.svg
+		position relative
+		display inline-block
+		&:after
+			content ""
+			position absolute
+			top 0
+			right 0
+			bottom 0
+			left 0
+
+h3
+	margin-bottom 2rem
+	font-size 1.5em
+	text-transform uppercase
+	a
+		color #272727
+		text-decoration none
+		border-bottom 2px solid #ffe44b
+		&:hover
+			border-bottom 2px solid #ffd800
+			text-decoration none
+			color #272727
+	&.map
+		z-index 5
+		position absolute
+		background-color #fff
+		padding 10px
+		max-width 20rem
+		width 100%
+		text-align center
+		border-radius 5px
+		display block
+		top 10rem
+		left 5%
+		border none
+	&.bg-col
+		padding 0.7rem 0 0.7rem 1rem
+		border-radius 10px 0 0 10px
+		margin 0 -15px 10px
+		position relative
+		border none
+		background-color #ffe44b
+		display block
+
+.vertic
+	border-left 5px solid #ae2354
+	padding-left 0.8rem
+
+h4
+	font-size 1em
+	text-transform uppercase
+	margin 0
+	&.nav-f
+		padding-bottom 5px
+		margin-bottom 5px
+		font-size 1.1em
+		a
+			&:hover
+				color inherit
+
+.center
+	text-align center
+
+symb
+	font-size 1em
+
+#menu-0 .navbar, #menu-0 .nav-dropdown-sm, #menu-0 .nav-dropdown-sm .link[aria-expanded="true"], #menu-0 .nav-dropdown-sm .dropdown-menu
+	box-shadow 0 1px 3px #131f33
+	text-transform uppercase
+
+#menu-0
+	.link
+		font-size 11px
+		margin 0 10px
+	.nav-dropdown-sm
+		&::after
+			content ""
+			display block
+			height inherit
+			width 100%
+	a
+		&.nav-dropdown-sm
+			box-shadow none
+			padding 5px 10px 5px 15px
+			font-size 0.9em
+			background-color #dee8ad
+			color #272727
+			text-decoration none
+			margin 0.2rem 1rem
+			white-space nowrap
+			&:hover
+				background-color #ccd891
+		&.nav-link
+			&.link[aria-expanded="true"]
+				padding 1rem 1.05375rem 1rem 0.7rem
+				border 1px transparent
+				z-index 1100
+				background-color #fff
+				box-shadow none
+				position inherit
+				margin 0
+			&.link[aria-expanded="false"]
+				padding 1rem 1rem 1rem 0.7rem
+				border 1px transparent
+				background-color transparent
+				box-shadow none
+				position inherit
+				margin 0
+			&.link[aria-expanded="false"]:hover
+				color #bbd143
+	.nav
+		a
+			&.buttons
+				margin 0.5rem 1rem
+				display block
+				text-align center
+
+.nav-dropdown
+	margin-left auto
+	letter-spacing 0.02em
+	font-family 'Noto Serif', sans-serif
+	.link
+		&.dropdown-toggle
+			&::after
+				display block
+				margin-top -0.1667em
+				position absolute
+				right 0
+				top 50%
+				margin-right 0.3rem
+		&.dropdown-toggle[aria-expanded="true"]
+			padding 0
+	.dropdown-item
+		padding 0.5rem 1.5rem
+		margin 2px 1rem
+		width 90.5%
+		background-color #f9f8f8
+		text-transform none
+
+.navbar-dropdown
+	.mbr-table-cell
+		height 3.625rem
+		transition all 0.45s ease
+	&.navbar-short
+		.mbr-table-cell
+		.navbar-logo
+			img
+				height 4.325rem
+		#menu-1
+			p
+				&.top-text
+					&.mbr-table-cell
+						height inherit
+						margin 0.7rem 0
+			.navbar-brand
+				padding 0.7rem
+			.mbr-table-cell
+				height 4rem
+				font-size 0.9em
+			#top-phone
+				&.mbr-table-cell
+					margin 0
+					font-size 0.8em
+					margin-left 2rem
+			nav
+				&.menu-left
+					&.navbar-brand
+						display none
+			.block-h
+				&.white-100
+					&.mbr-table-cell
+						width 85%
+						height initial
+						font-size 0.7em
+			.mask
+				&.mbr-table-cell
+					width 85%
+	.navbar-brand
+		z-index 120
+	.navbar-logo
+		margin 0 auto
+		img
+			height 5.325rem
+	#menu-1
+		p
+			&.top-text
+				&.mbr-table-cell
+					height inherit
+					font-family 'Roboto', Verdana, sans-serif
+					font-size 0.99em
+		.navbar-brand
+			padding 0.7rem
+		.mbr-table-cell
+			height 6rem
+			font-size 1em
+		#top-phone
+			&.mbr-table-cell
+				margin 0.6rem 0 0
+				padding 0
+				display block
+				height inherit
+		nav
+			&.menu-left
+				&.navbar-brand
+					font-size 1em
+					padding 0
+					display block
+					white-space inherit
+		.block-h
+			&.white-100
+				&.mbr-table-cell
+					width 100%
+					height inherit
+					display inline-block
+					font-size 0.9em
+		.mask
+			&.mbr-table-cell
+				display block
+				height inherit
+				width 100%
+				margin 0
+
+#menu-0 .link[aria-expanded="true"], #menu-0 .dropdown-item[aria-expanded="true"]
+	color #272727!important
+
+#menu-0 .link[aria-expanded="true"], #menu-0 .dropdown-menu
+	background #fff
+	border 1px solid #bbd143
+	box-shadow 0 1px 3px rgba(19, 31, 51, 0.25)
+
+li#chosen
+	&.nav-item
+		border 1px solid #bbd143
+		box-shadow 0 1px 3px rgba(19, 31, 51, 0.25)
+
+#menu-0 .dropdown-item, #menu-0 .nav-dropdown-sm .link
+	font-size 0.85rem
+	line-height 1.3
+	border 2px solid transparent
+
+#menu-0 .link:hover, #menu-0 .dropdown-item:hover, #menu-0 .link:focus, #menu-0 .dropdown-item:focus
+	color #272727
+	border 2px solid #bbd143
+
+.dropdown-menu
+	&.one-level
+		margin-top -2px
+		margin-left -1px
+		padding-right 5px
+
+li
+	&.nav-item
+		&.dropdown
+			border 2px solid transparent
+			&.open
+				border 1px solid #bbd143
+
+.block-absolute
+	position absolute
+	width 100%
+	background rgba(255,255,255,0.5)
+
+#menu-1
+	.navbar-brand
+		margin-right 0
+	a
+		&.nav-link
+			&.link
+				border-bottom 2px solid #ffe44b
+	.bg-color
+		background transparent
+	.mbr-table
+		& > div
+			&:first-child
+				position absolute
+			&:nth-child(2)
+				margin-left 25%
+
+.bg-color
+	height 100px
+	position absolute
+	width 100%
+
+.block-h
+	height 100%
+	box-shadow 0 6px 8px 1px rgba(10, 17, 37, 0.2)
+
+#menu-left
+	list-style-type none
+	height auto
+	padding 5px
+	width 100%
+	.link
+		font-size 1.1em
+		letter-spacing 0.5px
+		line-height 1.2
+	li
+		line-height 2.5
+
+#menu-1 a.nav-link.link:hover, #menu-1 a.nav-link.link:focus
+	border-bottom 2px solid #ffd800
+	color #272727
+	border-top 0
+	border-left 0
+	border-right 0
+
+.green-line
+	border-bottom 2px solid #bbd143!important
+	&:hover
+		border-bottom 2px solid #aabd3c!important
+
+.top-text
+	font-size 15px
+	text-transform none
+	margin-top 1.5rem
+	display block
+	white-space nowrap
+
+small
+	&.nav-menu
+		line-height 1
+		position absolute
+		font-family 'Roboto', Verdana, sans-serif
+		left 3rem
+		margin-top -0.4rem
+		text-transform none
+	&.center
+		text-align center
+		margin 5px auto
+		display block
+		color #999999
+
+.mask
+	mask url(../images/border.png)
+	-webkit-mask url(../images/border.png)
+	border-bottom 7px solid #ffffff
+	display block
+	margin 0 auto
+	top 0
+
+#top-phone
+	margin 0.6rem 0 0
+	ul
+		padding 0
+		font-family 'Noto Serif', sans-serif
+		text-transform none
+		list-style-type none
+		text-align right
+		font-size 1.1em
+		margin 0
+		display block
+
+#banner
+	position relative
+	height 100%
+	min-height 640px
+	max-height 900px
+	.container
+		position absolute
+		bottom 50px
+		left 50%
+		width 100%
+		transform translateX(-50%)
+	.wrapper
+		position absolute
+		width 100%
+		height 100%
+
+.cn-slideshow
+	height 100%
+	position relative
+	margin 0 auto
+	width 100%
+	background transparent
+	border 0
+	box-shadow none
+	overflow hidden
+
+.cn-bar
+	background rgba(255, 255, 255, 0.9)
+	height auto
+	position relative
+	bottom 0
+	right 0
+	left 0
+	float left
+	width 100%
+	color #272727
+	z-index 999
+	a
+		&.buttons
+			border none
+			color #272727
+			background-color #ffe44b
+			padding 12px 20px 10px
+			border-radius 5px
+			text-transform uppercase
+			font-weight 700
+			box-shadow 0 2px 0 rgba(51, 51, 51, 0.3)
+			margin 2rem 0 0
+			text-decoration none
+			display inline-block
+			font-size 1em
+			text-shadow none
+
+.cn-nav-content
+	h2
+		font-size 1.2em
+		color #272727
+		font-family 'Noto Serif', sans-serif
+		font-style normal
+		text-shadow none
+		color #282828
+		text-transform none
+		font-variant normal
+		font-weight 300
+		span
+			text-transform none
+			font-variant normal
+			color #282828
+			font-size 15px
+			letter-spacing 0.025em
+			font-weight inherit
+		b
+			color #bbd043
+			font-weight inherit
+			text-transform uppercase
+	h3
+		padding 0
+		margin 0
+		font-size 16px
+		color #1f2325
+		line-height 20px
+		font-style normal
+		font-family 'Noto Serif', sans-serif
+		text-transform none
+		font-variant normal
+		font-weight 300
+		b
+			color #ad2253
+			font-weight inherit
+			text-transform none
+			font-variant normal
+	div
+		width 22%
+		color #272727
+		&.cn-nav-content-current
+			text-align center
+			width 56%
+			position relative
+			height 100%
+			min-height 10rem
+			top 0
+			left 0
+			float left
+			margin-left 0
+			background-color #fff
+			padding 30px 10px
+
+.cn-nav-content h3 span,
+.cn-nav-content h3 span b
+	margin-right 0.25em
+	display block
+	font-size 12px
+	line-height 1
+	color #565555
+	font-weight inherit
+	text-transform none
+	font-variant normal
+
+.cn-nav
+	& > a
+		top 2.8rem
+	a
+		&:hover
+			span
+				background-color #bbd143
+		&.cn-nav-next
+			span
+				background transparent url(../images/next.png) no-repeat center center
+		&.cn-nav-prev
+			span
+				background transparent url(../images/prev.png) no-repeat center center
+
+.cn-nav-content-current
+	span
+		padding-top 0!important
+
+#wawe
+	display block
+	position relative
+
+.wawe
+	position absolute
+	z-index 2
+	display block
+	width 100%
+	// filter alpha(Opacity=75)
+	opacity 0.75
+	bottom 0
+	margin-bottom -7%
+	align-items center
+
+.tree
+	.bg-img
+		display block
+		position absolute
+		top 0
+		background url(../images/bg/bg-img3.jpg) center center no-repeat
+		width 100%
+		height inherit
+		background-size cover
+
+.two
+	.bg-img
+		display block
+		position absolute
+		bottom 0
+		background url(../images/bg/bg-img1.jpg) center center no-repeat
+		width 100%
+		height inherit
+		background-size cover
+
+#hero
+	height 40em
+
+.circle
+	background rgba(255, 255, 255, 0) url(../images/circle.png) repeat top center
+	position absolute
+	height 10px
+	margin-bottom -5px
+	width 100%
+	z-index 15
+	display block
+	bottom 0
+
+#vantges
+	background-color #bbd143
+	text-align center
+	position relative
+	display block
+	z-index 10
+	padding 1rem 0
+	p
+		margin 0 0 20px
+		font-size 0.9em
+	.mbr-cards-col
+		padding-top 30px
+		padding-bottom 30px
+		padding-left 5px
+		padding-right 5px
+
+.vantges
+	width 100%
+	display block
+	position relative
+	min-height inherit
+	text-align center
+	margin-top 15px
+	color #fff
+	font-size 35px
+	letter-spacing -10px
+
+section
+	&.map
+		background-color rgba(204, 204, 204, 0)
+		overflow-y hidden
+		min-height 65em
+
+.bg-map
+	min-height 100%
+	z-index 0
+	position absolute
+	display block
+	top 0
+	width 100%
+	min-width 95em
+
+#bgmap1
+	display block
+	position absolute
+	bottom 0
+	background url(../images/map/map-home.jpg) center center no-repeat
+	width 100%
+	height 100%
+	background-size cover
+	top 0
+
+section#map-2
+	height 50rem
+	position relative
+	display block
+	background-color #FFF
+	z-index 5
+	padding 55px 0 20px
+
+#bgmap2
+	display block
+	position absolute
+	bottom 0
+	background url(../images/map/bg-map-2.jpg) center center no-repeat
+	width 100%
+	height inherit
+	background-size cover
+	top 0px
+
+#map-2
+	.bgtop
+		top 0
+		background-color #fff
+		height 160px
+		position absolute
+		z-index 2
+		width 100%
+		border-bottom 10px solid #f1f1f1
+	h3
+		margin-bottom 1rem
+	span
+		&.icon-fa-info
+			top 1.8rem
+			color #bbd143
+
+#informer
+	position relative
+	display block
+	height 100%
+	min-height 70px
+	top 8px
+	width 100%
+	left 0
+	z-index 5
+	span
+		&.sqr
+			position relative
+			left -1.3rem
+			top 0.9rem
+	li
+		margin-left 1.5rem
+		line-height 1.1
+
+span
+	&.region
+		font-size 18px
+		font-weight 700
+		color #bbd143
+		line-height normal
+		position relative
+		margin-left 65px
+		display inline-block
+		top -5px
+	&.truth
+		display block
+		background-color #fff
+		font-size 22px
+		color #b11e4c
+		padding-right 10px
+	&.old
+		display block
+		background-color #f2cd00
+		font-size 12px
+		padding 5px 10px
+		width 165px
+		border-radius 0 0 0 20px
+	&.icon-fa-info
+		font-size 25px
+		position absolute
+		display inline-block
+		top -8px
+		left 5px
+	&.conts
+		font-size 30px
+		position relative
+		display inline-block
+		margin-right 5px
+		top 4px
+		color #bbd143
+	&.sqr
+		display block
+		width 15px
+		height 15px
+		border 2px solid #bbd143
+		margin-right 10px
+		-moz-transform rotate(45deg)
+		-ms-transform rotate(45deg)
+		-webkit-transform rotate(45deg)
+		-o-transform rotate(45deg)
+		transform rotate(45deg)
+		position absolute
+		left 20px
+		top 23px
+
+p
+	&.informer
+		position relative
+		bottom 0
+		font-size 1.3em
+		display block
+		font-family 'Noto Serif', Verdana, sans-serif
+	&.lines
+		margin 1rem 0 3rem
+	&.text-foot
+		width 80%
+		margin-left 61px
+		margin-top 25px
+		text-align left
+	&.marg-left
+		margin-left 0
+		font-family 'Noto Serif', Verdana, sans-serif
+		display inline-flex
+		line-height 1.5
+		font-size 0.933em
+		text-align inherit
+		span
+			&.conts
+				top 0.5rem
+
+.informer
+	background-color #fff
+	padding 5px
+
+.informer-detail
+	width 16rem
+	font-size 0.8rem
+	background-color #fff
+	margin 3rem 0 0 5rem
+	padding 0
+	border-radius 0 0 10px 10px
+	border 10px solid #f1f1f1
+	ul
+		list-style-type none
+		padding 5px
+
+.red
+	color #b11e4c!important
+
+.cnt
+	position relative
+	display block
+	z-index 2
+
+#reviews
+	position relative
+	display block
+	background-color #FFF
+	z-index 5
+	padding 55px 0 20px
+
+.reviews
+	position relative
+	display block
+	border 3px solid #bbd143
+	border-radius 10px
+	height auto
+
+.base
+	text-align center
+	position relative
+	padding 5px
+	img
+		border-radius 50%
+		max-width 100%
+		margin 0 auto
+		position relative
+		display block
+
+.box
+	padding 15px 10px
+	margin 30px 0
+	span
+		color #999
+
+.desc
+	font-size 0.9em
+	font-weight 400
+	display inline-block
+	margin-top 15px
+
+.but
+	text-align right
+
+figure
+	margin 0
+	&::after
+		border 5px solid transparent
+		border-left 5px solid #b11e4c
+		content ''
+		position relative
+		left 10px
+		display inline-block
+		bottom 0
+		margin 0
+	&.yellow
+		&::after
+			border 0.8rem solid transparent
+			border-left 0.8rem solid #fff0a2
+			position absolute
+			left inherit
+			right -1rem
+			top -0.6rem
+
+.proc
+	position relative
+	display block
+	margin 45px 0 20px
+
+#ico
+	position relative
+	display block
+
+.ico
+	width 6.33333rem
+	position relative
+	display inline-block
+	padding 0.2rem
+	height 10rem
+	text-align center
+	p
+		line-height 1
+		position absolute
+		display block
+		top 6rem
+
+.iconki
+	font-size 4rem
+	color #bbd143
+	margin-bottom 15px
+
+#featured
+	padding 55px 0 20px
+	background-color #FFF
+	h3
+		margin-bottom 2rem
+
+.arrow
+	border-bottom 3px solid #fff0a2
+	position absolute
+	width 97%
+	top 5rem
+
+.lines
+	a
+		border-bottom 2px solid #bbd143
+		color #272727
+		font-family 'Raleway', Verdana, sans-serif
+		&:hover
+			border-bottom 2px solid #aabd3c
+			text-decoration none
+
+.box-product
+	position relative
+	display block
+	border 2px solid #bbd143
+
+.box-price
+	position relative
+	height 13.777rem
+	background-color #bbd143
+	display block
+
+.price
+	position absolute
+	top 5px
+	z-index 10
+	right 3px
+	text-align right
+	max-width 165px
+	width 100%
+	font-family 'Roboto', Verdana, sans-serif
+
+.prdt-img
+	position relative
+	padding 5px 0
+	margin-left 3px
+	margin-right 3px
+	overflow hidden
+
+.prdt-square
+	position relative
+	bottom 0
+	font-family 'Noto Serif', Verdana, sans-serif
+
+.square
+	position relative
+	top 2px
+	margin 0 5px 10px
+	color #fff
+	display inline-block
+	width 43%
+	white-space nowrap
+	.ico-li
+		color #fff
+
+.ico-li
+	color #bbd143
+	margin-right 10px
+	font-size 20px
+
+.box-sps
+	background-color #edf2d0
+	padding 5px
+	color #bbd143
+	text-align right
+	letter-spacing 3px
+	display block
+	position relative
+	width 100%
+
+.box-area
+	font-size 16px
+	text-align left
+	padding 7px
+	p
+		margin 0 0 10px
+	a
+		&.read
+			&.right
+				margin 0 10px
+				font-size 14px
+
+.owl-stage-outer
+	cursor -webkit-grab
+
+.owl-carousel
+	.owl-nav
+		&.disabled
+			display block
+
+.owl-theme
+	.owl-nav
+		[class*=owl-]
+			color #FFF
+			font-size 0
+			padding 0
+			background transparent
+			cursor pointer
+			border-radius 0
+			border 5px solid transparent
+			border-left 5px solid #edf2d0
+			content ''
+			position absolute
+			left 10px
+			display inline-block
+			bottom 40%
+			margin 0
+			zoom 4
+		[class*=owl-]:hover
+			background transparent
+			color #FFF
+			text-decoration none
+			border-left 5px solid #ffe44b
+		.owl-next
+			left 101%
+		.owl-prev
+			left -4.5%
+			-moz-transform rotate(180deg)
+			-ms-transform rotate(180deg)
+			-webkit-transform rotate(180deg)
+			-o-transform rotate(180deg)
+			transform rotate(180deg)
+
+#video-block
+	padding 55px 0 20px
+	background-color #FFF
+
+.stn
+	margin-bottom 30px
+
+.video
+	background-color #ffe44b
+	display block
+	margin -15px
+	padding 15px
+	position relative
+	top 15px
+
+footer
+	background-color #f9f8f8
+	position relative
+	display block
+
+#subscribe
+	background-color transparent
+	padding 55px 0 20px
+	form
+		max-width 55rem
+		margin 0 auto
+	input
+		height 40px
+		padding 5px 10px
+		font-family 'Noto Serif', Verdana, sans-serif
+		width 47%
+		margin 5px
+		border 2px solid #bbd143
+		border-radius 5px
+
+#menu-bottom
+	background-color transparent
+	padding 55px 0 20px
+
+.navfoot
+	ul
+		padding 5px 10px 5px 0
+		text-align left
+		list-style-type none
+	a
+		font-size 0.9em
+		color #272727
+		&:hover
+			text-decoration none
+			color #bbd143
+
+#contacts
+	background-color transparent
+	padding 55px 0 20px
+	a
+		color #272727
+		&:hover
+			color #272727
+			text-decoration none
+			border-bottom 2px solid #bbd143
+
+#logo-foot
+	position absolute
+	width 150px
+	top -38px
+	left 0
+	margin 0
+	display block
+
+ul
+	&.foot-cont
+		font-family 'Noto Serif', Verdana, sans-serif
+		font-size 1.1em
+		list-style-type none
+		padding 0
+
+.foot-cont
+	li
+		margin-bottom 5px
+
+#copywriter
+	background-color transparent
+	padding 55px 0 20px
+	span
+		text-align left
+		display block
+		font-size 14px
+		line-height 1.3
+
+p#logo-company
+	text-align right
+	margin-top 0
+
+object
+	&.logo-company
+		width 150px
+		margin-bottom -6px
+
+#catalog
+	background-color #f9f8f8
+	padding 0 0 20px
+	.bg-white
+		background-color #fff
+		padding 10px
+		margin-bottom 30px
+	.catalog
+		width 100%
+		display block
+		position relative
+	.ctl
+		width 100%
+		position relative
+		display block
+		background-color #fff
+		margin-bottom 30px
+	.name-ctl
+		background-color #bbd143
+		padding 5px 10px
+		color #fff
+		margin-bottom 10px
+		p
+			margin 0
+			font-family 'Noto Serif', Verdana, sans-serif
+			font-size 18px
+	.ctrl-iip
+		position relative
+		display block
+		margin 10px
+	.img-ctl
+		display block
+		position relative
+		margin 0 auto
+		text-align center
+		width 20rem
+	.ctl-info
+		display inline-block
+		position absolute
+		right 0
+		background-color rgba(255, 255, 255, 0.75)
+		height 100%
+		width 12rem
+	.info-price
+		text-align center
+		position absolute
+		border 2px solid #bbd143
+		border-radius 0 0 0 10px
+		background-color #fff
+		width 200px
+		right 0
+		padding 5px
+	.price
+		max-width 100%
+		position relative
+		color #bbd143
+		font-size 22px
+		text-align inherit
+		right inherit
+		top initial
+		margin 0
+	.information
+		display block
+		position relative
+		top 9em
+		right 0
+		margin-left 20px
+		font-size 12px
+		ul
+			list-style-type none
+			padding 0
+		li
+			display inline-flex
+			margin-bottom 5px
+	.ico-li
+		top -0.2rem
+		position relative
+	.ctl-txt
+		padding 10px 20px
+	.ctl-btm
+		text-align center
+	h3
+		margin-bottom 5px
+		margin-top 1rem
+	img
+		width 100%
+
+big
+	font-size 24px
+
+.img-bgr
+	display inline-flex
+	position relative
+	overflow hidden
+	max-height 15rem
+	width 20rem
+
+.opt
+	border 1px solid #ffe44b
+	img
+		width 100%
+
+.img-opt
+	padding 5px
+
+.icons
+	font-size 25px
+	color #fff
+	position absolute
+	top 4em
+	display block
+
+.specific
+	padding 0
+	text-align center
+	p
+		margin 0.3rem 0
+
+.mbr-slider
+	.mbr-section
+		padding 0
+		background-attachment scroll
+		width 100%
+	.carousel-control
+		width 40px
+		height 40px
+		background transparent
+		top inherit
+		bottom 1rem
+		&.right
+			margin-right 1rem
+		&.left
+			margin-left 1rem
+		&:hover
+			background #bbd143
+			color #fff
+			opacity 0.8
+	.carousel-indicators
+		margin-bottom 0.8rem !important
+
+.mbr-slider .carousel-control .icon-next, .mbr-slider .carousel-control .icon-prev
+	margin-top -24px
+
+.carousel-control
+	.icon-next
+		margin-right -14px
+	.icon-prev
+		margin-left -18px
+
+.min-paad
+	padding 5px
+
+section#tab
+	position relative
+	display block
+	background-color #FFF
+	z-index 5
+	padding 55px 0 20px
+
+.tabs
+	display inline-block
+	& > div
+		padding-top 10px
+	ul
+		margin 0
+		padding 0
+		&:after
+			content ""
+			display block
+			clear both
+			height 5px
+			background #bbd143
+		li
+			margin 0
+			cursor pointer
+			display block
+			float left
+			padding 10px 15px
+			background transparent
+			border-top 1px solid #bbd143
+			border-right 1px solid #bbd143
+			font-family 'Noto Serif', Verdana, sans-serif
+			color #272727
+			&:hover
+				background rgba(187, 209, 67, 0.2)
+
+.tabs ul li.active, .tabs ul li.active:hover
+	background #bbd143
+	color #fff
+
+.gradnt
+	height 40px
+	background-color #f0f0f0
+	background-image linear-gradient(rgb(255, 255, 255) 0%, #bbd143 94%, rgba(150, 175, 17, 0.8) 15%)
+
+#acc
+	width 260px
+	background-color rgba(255, 255, 255, 0.8)
+	height 100%
+	position relative
+	display block
+	z-index 5
+	.informer
+		background-color #fff
+		padding 5px
+	.infrm
+		padding 10px 15px 5px
+		border 3px solid #bbd143
+	h3
+		&.bold
+			font-weight 600
+			text-transform none
+			font-size 24px
+			border none
+			margin 0 0 0 20px
+			padding 0
+	.gauge
+		font-size 18px
+		font-weight 500
+		margin 0 0 0 20px
+	.price-info
+		margin 15px 0 0
+		font-size 14px
+		text-align right
+	.prc
+		font-weight 600
+		font-size 1.1rem
+		&.big
+			font-size 24px
+			text-align right
+			margin 0
+			font-weight 500
+			font-family 'Roboto', Verdana, sans-serif
+	.context
+		text-align center
+		margin 10px
+	.info-homes
+		width 140px
+		display block
+		position relative
+		text-align center
+		font-family 'Roboto', sans-serif
+		margin 0 auto
+		p
+			margin 0
+			font-family 'Roboto', Verdana, sans-serif
+	.panel-default
+		& > .panel-heading
+			color #272727
+			background-color #fff
+			border-radius 15px
+			border 2px solid #e8e8e8
+			padding 10px
+			display block
+			position relative
+			z-index 2
+			&:hover
+				border 2px solid #bbd143
+			& + .panel-collapse
+				& > .panel-body
+					border-top-color transparent
+	.panel
+		background-color transparent
+		border 0
+		margin 8px 8px
+		box-shadow none
+	.ico-homes
+		position absolute
+		color #bbd143
+		font-size 29px
+		top 8px
+		left -36px
+		display block
+		.icon-fa-home
+			&:before
+				margin 0
+	.name-homes
+		color #777
+	.icon-fa-geometry
+		&:before
+			color inherit
+			top inherit
+			position inherit
+			font-size inherit
+			right inherit
+			left inherit
+	.ico-disable
+		position absolute
+		bottom -7px
+		right 5px
+		font-size 12px
+		display block
+		-moz-transform rotate(90deg)
+		-ms-transform rotate(90deg)
+		-webkit-transform rotate(90deg)
+		-o-transform rotate(90deg)
+		transform rotate(90deg)
+	a
+		border 0
+		display block
+		position relative
+		text-decoration none
+		color #272727
+		&:hover
+			color #bbd143
+		&.subcr
+			margin 15px
+			font-size 16px
+			width auto
+			font-weight 500
+		&.buttons
+			&:hover
+				background-color #ffe44b
+				color #272727
+	.acc-subcr
+		display block
+		position relative
+		bottom 0
+		width 260px
+		z-index 5
+	.collapse
+		&.in
+			display block
+			background-color #fff
+			padding 20px 0 0
+			margin-top -11px
+			position relative
+			z-index 0
+	.panel-group
+		margin-bottom 0
+		overflow-y auto
+		height auto
+		max-height 20rem
+	article
+		font-size 85%
+
+.accord
+	position absolute
+	display block
+	height inherit
+	z-index 5
+	top -13rem
+
+.navbar-dropdown.opened .navbar-brand, .navbar-dropdown.opened .navbar-toggler
+	display block

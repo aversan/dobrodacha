@@ -1,0 +1,92 @@
+<script src="assets/scripts/jquery.min.js"></script>
+<script src="assets/scripts/jquery.tmpl.min.js"></script>
+<script src="assets/scripts/jquery.slideshow.js"></script>
+<script src="assets/scripts/tether.min.js"></script>
+<script src="assets/scripts/bootstrap.min.js"></script>
+<script src="assets/scripts/SmoothScroll.js"></script>
+<script src="assets/scripts/jquery.viewportchecker.js"></script>
+<script src="assets/scripts/jquery.touchSwipe.min.js"></script>
+<script src="assets/scripts/jarallax.js"></script>
+<script src="assets/scripts/owl.carousel.js"></script>
+<script src="assets/scripts/script.js"></script>
+<script src="assets/scripts/app.min.js"></script>
+
+<script id="barTmpl" type="text/x-jquery-tmpl">
+  <div class="container">
+    <div class="cn-bar">
+      <div class="cn-nav">
+          <a href="#" class="cn-nav-prev">
+            <span></span>
+             <div style="background-image:url(${prevSource});"></div>
+          </a>
+          <a href="#" class="cn-nav-next">
+            <span></span>
+            <div style="background-image:url(${nextSource});"></div>
+          </a>
+          </div><!-- cn-nav -->
+            <div class="cn-nav-content">
+              <div class="cn-nav-content-prev">
+                <span></span>
+                <h3>${$.html(prevTitle)}</h3>
+              </div>
+              <div class="cn-nav-content-current">
+                <span></span>
+                 <h2>${currentTitle.html()}</h2>
+                 <a href="#" class="buttons">Выбрать своё идеальное направление <symb>&gt;</symb></a>
+              </div>
+              <div class="cn-nav-content-next">
+                <span></span>
+                <h3>${nextTitle.html()}</h3>
+              </div>
+      </div><!-- cn-nav-content -->
+    </div><!-- cn-bar -->
+  </div>
+</script>
+
+<!--<script type="text/javascript">-->
+<!--  $(function() {-->
+<!--    $('#cn-slideshow').slideshow();-->
+<!--  });-->
+<!--</script>-->
+
+<script>
+  $(document).ready(function(){
+    $(".tabs").lightTabs();
+    $('#cn-slideshow').slideshow();
+    $(".owl-carousel").owlCarousel();
+  });
+</script>
+
+<script>
+  var owl = $('.owl-carousel');
+  owl.owlCarousel({
+    loop:true,
+    nav:true,
+    margin:10,
+    responsive:{
+      0:{
+        items:1
+      },
+      430:{
+        items:2
+      },
+      480:{
+        items:2
+      },
+      600:{
+        items:2
+      },
+      768:{
+        items:3
+      },
+      991:{
+        items:3
+      },
+      1200:{
+        items:4
+      }
+    }
+  });
+</script>
+
+<input name="animation" type="hidden">
